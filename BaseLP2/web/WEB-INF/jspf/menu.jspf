@@ -1,0 +1,12 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<section>
+    <div id="logo">
+        <a href="home.jsp">TwitMack</a>
+    </div>
+    <div id="userinfo">
+        ${user.username}
+    </div>
+    <p><a href="update.jsp"><i class="material-icons">account_box</i></a></p>
+    <a href="Controller?command=Userlp2.logout"><i class="material-icons">exit_to_app</i></a>
+</section>
